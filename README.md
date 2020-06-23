@@ -1,37 +1,65 @@
-## Welcome to GitHub Pages
+Chapter1
+=========
+소개
+------------
+ 
+**자기소개**
 
-You can use the [editor on GitHub](https://github.com/dabin0513/dabin0513.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+안녕하세요. 저는 선문대학교에 재학중인 **강다빈**입니다.   
+과는 *글로벌소프트웨어학과*이며 현재 2학년이고 학번은 *2019315047*입니다.  
+제 홈페이지는 현재까지 배운 프로그래밍 언어인 **Java와 Python**에 대한 내용을 다룰 것입니다.  
+각각의 장단점에 대해 알려드리고 자바와 파이썬의 코드는 어떻게 다른지 보여드릴 예정입니다.  
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**시간표**
+>다음은 저의 2학년 1학기 시간표입니다.
+![KakaoTalk_20200623_002551716](https://user-images.githubusercontent.com/63287630/85374566-f2ef7c80-b56f-11ea-9df2-197a4f5d0b9a.jpg)
+ 
 
-### Markdown
+Chapter2
+=========
+자바와 파이썬이란?
+------------
+* 자바
+  * 객체 지향적 프로그래밍 언어
+  * 문법적 특성이 C언어와 비슷
+  * 자바만의 실행 코드인 바이트코드를 가지고 있다.  
+ 
+* 파이썬
+  * 객체 지향적 프로그래밍 언어
+  * 동적 파이핑 대화형 언어
+  * 유니코드 문자열을 지원해서 다양한 언어의 문자 처리   
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Chapter3
+========
+자바와 파이썬의 장단점
+-----------------
+| | 장점 | 단점 |
+|:-----:|:-----:|:-----:|
+|자바|운영체제가 독립적임|속도가 느림|      
+|파이썬|읽고 사용하기 쉬움|모바일 컴퓨팅과 브라우저 부재|     
+  
+Chapter4
+========
+자바와 파이썬 코드 차이
+-------
 
-```markdown
-Syntax highlighted code block
+> 다음은 **자바 출력 코드**입니다.  
 
-# Header 1
-## Header 2
-### Header 3
+       System.out.print("출력");  
+     
+> 다음은 **파이썬 출력 코드**입니다.  
 
-- Bulleted
-- List
+       print("출력")
 
-1. Numbered
-2. List
+> 다음은 **자바 반복문(for문) 코드**입니다.
 
-**Bold** and _Italic_ and `Code` text
+       for(int i = 0; i < 10; i++){
+           println(i + "번째");
+       }
+     
+> 다음은 **파이썬 반복문(for문) 코드**입니다.  
 
-[Link](url) and ![Image](src)
-```
+       for i in range(10):
+          print(str(i) + "번째")
+        
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dabin0513/dabin0513.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
